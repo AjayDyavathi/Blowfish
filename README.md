@@ -13,3 +13,14 @@ I will upgrade it to encrypt files soon.
 Any enhancements to this file are encouraged.
 Do not use this code in serious productions, because I wrote this without concerning any memory management and optimisations.
 Purely for understanding and educational purposes.
+
+USAGE: 
+
+ ```
+ #ENCRYPTION
+ python3 blowfish.py -m e -k my_awesome_key -s THIS_IS_SO_CONFIDENTIAL_INFORMATION
+ 
+ #DECRYPTION
+ python3 blowfish.py -m d -k my_awesome_key -s """hex cipher"""
+ 
+ 
